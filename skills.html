@@ -13,67 +13,105 @@
         <!--=============== CSS ===============--> 
         <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Responsive Halloween Website</title>
+        <title>Facundo Martin</title>
     </head>
     <body>
         <!--==================== HEADER ====================-->
        <main>
            <section class="glass">
                
-                <div class="dashboard">
+                <div class="dashboard skills__dashboard">
                     <div class="user">
-                        <img src="assets/img/avatar.png" alt="">
+                        <a href="index.html"><img src="assets/img/avatar.png" alt=""></a>
                         <h3>Facundo Martin</h3>
-                        <p>FrontEnd Developer</p>
+                        <p>Front End Developer</p>
                     </div>
 
                     <div class="nav">
-                        <div class="link">
-                            <img src="assets/img/twitch.png" alt="">
-                            <h2>Streams</h2>
-                        </div>
-                        <div class="link">
-                            <img src="assets/img/steam.png" alt="">
-                            <h2>Games</h2>
-                        </div>
-                        <div class="link">
-                            <img src="assets/img/upcoming.png" alt="">
-                            <h2>New</h2>
-                        </div>
-                        <div class="link">
-                            <img src="assets/img/library.png" alt="">
-                            <h2>Library</h2>
-                        </div>
+                        <ul>
+                            <li><a href="aboutme.html" class="nav__link"><h2><i class='bx bx-info-square' ></i> About me</h2></a></li>
+                            <li><a href="skills.html" class="nav__link"><h2><i class='bx bx-code-alt'></i> Skills</h2></a></li>
+                            <li><a href="projects.html" class="nav__link"><h2><i class='bx bx-layer'></i> Projects</h2></a></li>
+                            <li><a href="education.html" class="nav__link"><h2><i class='bx bxs-graduation' ></i>
+                                Education</h2></a></li>
+                                <li><a href="contact.html" class="nav__link"><h2><i class='bx bx-message-edit' ></i>
+                                    Contact</h2></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="social__media">
+                        <a href="" class="social__link"><i class='bx bxl-github'></i></a>
+                        <a href="" class="social__link"><i class='bx bxl-linkedin' ></i></a>
+                        <a href="" class="social__link"><i class='bx bxs-file-pdf' ></i></a>
                     </div>
                 </div>
 
                     
 
-                <div class="content">
-                    <div class="status">
-                        <h1>Active Games</h1>
+                <div class="content skills__content">
+                    <div>
+                        <h1 class="skills__title">My skills</h1>
+                        <div class="disclaimer">
+                        <p>DISCLAIMER:</p>
+                            <p>The objective of this section is to simply give <u>an idea</u> of how comfortable I feel with different programming languages.
+                        </p>
+                        </div>
                     </div>
+
                     <div class="cards">
                         <div class="card">
-                            <img src="assets/img/assassins.png" alt="">
-                            <div class="card-info">
-                                <h2>Assasins Creed Valhalla</h2>
-                                <p>PS5 Version</p>
+                            <i class='bx bxl-html5 html__icon' ></i>
+                            <div class="card-info card-html">
+                                <h2>Hypertext Markup Language</h2>
+                                <p><em>HTML5</em></p>
                                 <div class="progress"></div>
                             </div>
-                            <h2 class="percentage">60%</h2>
+                            <h2 class="percentage">80%</h2>
                         </div>
+
                         <div class="card">
-                            <img src="assets/img/assassins.png" alt="">
-                            <div class="card-info">
-                                <h2>Assasins Creed Valhalla</h2>
-                                <p>PS5 Version</p>
+                            <i class='bx bxl-css3 css__icon'></i>
+                            <div class="card-info card-css">
+                                <h2>Cascading Style Sheets   </h2>
+                                <p><em>CSS3</em></p>
                                 <div class="progress"></div>
                             </div>
-                            <h2 class="percentage">60%</h2>
+                            <h2 class="percentage">65%</h2>
+                        </div>
+
+                        <div class="card">
+                            <i class='bx bxl-javascript js__icon'></i>
+                            <div class="card-info card-js">
+                                <h2>JavaScript</h2>
+                                <p><em>JS ES6</em></p>
+                                <div class="progress"></div>
+                            </div>
+                            <h2 class="percentage">40%</h2>
+                        </div>
+
+                        <div class="card">
+                            <i class='bx bxl-react react__icon'></i>
+                            <div class="card-info card-react">
+                                <h2>React</h2>
+                                <p><em>React.js</em></p>
+                                <div class="progress"></div>
+                            </div>
+                            <h2 class="percentage">In progress</h2>
+                        </div>
+
+                        <div class="card">
+                            <img src="assets/img/naruto1.png" class="naruto" alt="">
+                            <div class="card-info card-enthusiasm">
+                                <h2>Enthusiasm</h2>
+                                <p><em></em></p>
+                                <div class="progress"></div>
+                            </div>
+                            <h2 class="percentage">100%</h2>
                         </div>
                     </div>
                 </div>
+                
+               
                
            </section>
        </main>
