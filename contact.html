@@ -57,14 +57,14 @@
                         <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
                             <input type="hidden" name="form-name" value="contact">
                             <p class="hidden">
-                                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                <label>Don’t fill this out if you’re human: <input name="bot-field"/></label>
                               </p>
 
-                            <input type="text" class="box" placeholder="First Name">
-                            <input type="text" class="box" placeholder="Last Name">
-                            <input type="text" class="box" placeholder="Email">
-                            <input type="text" class="box" placeholder="Topic">
-                            <textarea name="" id="" cols="10" rows="5" class="box message" placeholder="message"></textarea>
+                            <input type="text" name="firstname" class="box" placeholder="First Name" required>
+                            <input type="text" name="lastname" class="box" placeholder="Last Name" required>
+                            <input type="text" name="email" class="box" placeholder="Email" required>
+                            <input type="text" name="subject" class="box" placeholder="Subject" required>
+                            <textarea type="text" name="message" id="" cols="10" rows="5" class="box message" placeholder="message" required></textarea>
                             <input type="submit" value="Send" class="btn">
                         </form>
                     </div>
