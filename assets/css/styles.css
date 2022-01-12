@@ -334,7 +334,11 @@ main {
   margin: 1rem 0;
 }
 /* cards */
-
+.skills__content .card {
+  display: flex;
+  justify-content: start;
+  gap: 2rem;
+}
 .skills__content i {
   font-size: 5rem;
 }
@@ -365,6 +369,8 @@ main {
 }
 .card-info {
   min-width: 342px;
+  justify-content: start;
+  margin-top: 0.6rem;
 }
 
 /* Progress bars */
@@ -385,17 +391,16 @@ main {
 }
 
 /*=============== PROJECTS ===============*/
-.status {
-  text-align: center;
+.project__content {
+  margin: 2rem 5rem;
 }
 
-.project__content i {
-  position: absolute;
-  bottom: 5%;
-  left: 30%;
-  font-size: 2rem;
-  color: #13438b;
+.project__content .bd-grid {
+  margin-top: 4rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
+
 .bd-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -413,8 +418,7 @@ main {
   );
   max-width: 300px;
   border-radius: 1rem;
-  margin: 2rem 0;
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
 }
 
@@ -447,7 +451,6 @@ main {
   margin-top: 2px;
   display: list-item;
 }
-
 /*=============== CONTACT ===============*/
 .contact__status {
   text-align: center;
