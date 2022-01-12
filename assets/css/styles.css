@@ -41,6 +41,10 @@ img {
   max-height: 100px;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 /*=============== GLASS ===============*/
 main {
   min-height: 100vh;
