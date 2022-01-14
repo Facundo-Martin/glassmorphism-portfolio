@@ -110,6 +110,9 @@ main {
   );
 }
 
+.dashboard .avatar {
+  border-radius: 100%;
+}
 .dashboard i {
   font-size: 1.8rem;
 }
