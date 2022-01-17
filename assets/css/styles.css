@@ -337,7 +337,13 @@ section.glass .dashboard{
 /*=============== SKILLS ===============*/
 .glass {
   max-height: 80vh;
-  overflow: scroll;
+ 
+}
+.skills__content .cards{
+  margin-top: 2rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 500px;
 }
 .skills__content {
   margin-top: auto;
@@ -346,13 +352,9 @@ section.glass .dashboard{
 
 .skills__title {
   text-align: center;
+  margin-top: 2rem;
 }
 
-.disclaimer {
-  display: flex;
-  gap: 0.5rem;
-  margin: 1rem 0;
-}
 /* cards */
 .skills__content .card {
   display: flex;
@@ -575,7 +577,7 @@ section .contact {
 --small-font-size: 0.875rem;
 --smaller-font-size: 0.813rem; */
 
-@media screen and (max-width: 1550px){
+/* @media screen and (max-width: 1550px){
   .glass {
     width: 80%;
-}
+} */
