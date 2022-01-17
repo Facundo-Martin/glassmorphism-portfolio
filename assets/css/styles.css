@@ -7,6 +7,7 @@
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
 } */
+
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +65,10 @@ main {
   justify-content: center;
 }
 
+section.glass{
+  overflow: hidden;
+}
+
 .glass {
   background: white;
   min-height: 80vh;
@@ -77,9 +82,7 @@ main {
   z-index: 2;
   backdrop-filter: blur(2rem);
   display: flex;
-  overflow: hidden;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  
 }
 
 .circle1,
