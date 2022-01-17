@@ -577,7 +577,7 @@ section .contact {
 --small-font-size: 0.875rem;
 --smaller-font-size: 0.813rem; */
 
-/* @media screen and (max-width: 1550px){
+@media screen and (max-width: 1550px){
   .glass {
     width: 80%;
-} */
+}
