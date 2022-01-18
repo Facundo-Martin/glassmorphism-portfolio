@@ -581,3 +581,8 @@ section .contact {
   .glass {
     width: 80%;
 }
+  .skills__content .cards{
+    height: 350px;
+  }
+}
+  
